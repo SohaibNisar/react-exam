@@ -1,7 +1,7 @@
 #sign-in{
     width: 100vw;
     height: 100vh;
-    background-color: #efefef;
+    background: radial-gradient(#fff,#00b4ef);
 }
 
 #sign-in .sign-in{
