@@ -3,10 +3,9 @@ body{
 }
 
 #question .question{
-    position: absolute;
-    left: 50%;
+    position: relative;
+    margin: 70px auto;
     top: 50%;
-    transform: translate(-50%,-50%);
     padding: 0 50px;
 }
 

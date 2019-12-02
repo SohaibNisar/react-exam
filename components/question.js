@@ -62,7 +62,7 @@ class Question extends Component{
                     <span className='w-50 text-white font-weight-bold'>Exam 1</span>
                     <span className='w-50 float-right text-right text-white font-weight-900'>Timer {this.msToTime(this.state.time)}</span>
                 </div>
-                <div className='question container-fluid col-md-6'>
+                <div className='question container-fluid col-md-7'>
                     <div className='form'>
                         <div className='title text-center'>
                             <h6>Question no {this.props.data.count}</h6>
@@ -89,9 +89,9 @@ class Question extends Component{
                                 <label className="form-check-label" htmlFor="option4">{this.props.data.option4}</label>
                             </div>
                         </div>
-                        <div className='w-100 text-center'>
-                            <button className='btn btn-info mt-4 px-4'  onClick={this.nextPath}>Next</button>
-                            <button className='btn btn-danger ml-3 mt-4 px-4' onClick={this.end}>End Exam</button>
+                        <div className='w-100 text-center d-flex flex-wrap'>
+                            <button className='btn btn-info mx-auto mt-4 px-4'  onClick={this.nextPath}>Next</button>
+                            <button className='btn btn-danger mx-auto mt-4 px-4' onClick={this.end}>End Exam</button>
                         </div>
                     </div>
                 </div>
